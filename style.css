@@ -1,0 +1,137 @@
+* {
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+.logoAlura{
+    margin-left: 84px;
+    padding-top: 40px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+
+
+.text-area{
+border:none;
+color:#0A3871;
+margin-top: 140px;
+margin-left: 240px;
+text-transform: lowercase;
+}
+
+::placeholder {color: #0A3871  }
+  .text-area:focus {
+	outline:none;
+}
+
+
+.messenger {
+background: white;
+background-image: url(./imagens/Decodificador.png);
+background-repeat: no-repeat;
+background-position: center;
+background-position-Y: 72% ;
+background-size: 15em;
+border: 1px solid #0A3871;
+border-radius: 24px;
+color:#0A3871;
+margin-left: 300px;
+margin-top: 0px;
+padding-left: 20px;
+position: fixed;
+height: 900px;
+width: 500px;
+}
+.messenger{
+outline: none;
+}
+
+
+
+
+
+.btn-criptografar{
+background-color: #0A3871;
+border: 1px solid #0A3871;
+border-radius: 24px;
+color: white;
+cursor: pointer;
+height: 67px;
+width: 328px;
+margin-left: 240px;
+font-size: 30px;
+font-weight: bold;
+}
+
+
+
+
+.btn-descriptografar {
+background: #D8DFEB;
+border: 1px solid #0A3871;
+border-radius: 24px;
+color: #0A3871;
+cursor: pointer;
+height: 67px;
+margin-left: 30px;
+width: 320px;
+}
+
+
+.btn-copiar {
+border: 1px solid #0A3871;
+border-radius:  24px;
+color: #0A3871;
+cursor: pointer;
+height: 67px;
+margin-left: 420px;
+position: absolute;
+width: 336px;
+margin-top: 810px;
+}
+
+.informacao{
+    
+margin-left: 265px;
+color: #495057;
+font-size: 18px;
+}
+
+.text-footer{
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+footer {
+    align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+.rodape-social {
+   display: flex;
+   
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.copyright{
+    font-size: 25px;
+}
+
+.rodape-midia {
+    margin-top: 20px;
+    width: 80px;
+    margin-left: 40px;
+}
